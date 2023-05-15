@@ -8,6 +8,7 @@ public class Rectangle {
         this.sideA = sideA;
         this.sideB = sideB;
     }
+
     public void displayInfo() {
         double perimeter = calculatePerimeter();
         double area = calculateArea();
